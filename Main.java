@@ -11,11 +11,11 @@ public class Main {
 
          int AgeRange = 40;
 
-        for (int i = 0; i < personArray.length; i++) {
+        for (Employee i : personArray) {
 
-            if (personArray[i].getAge() >= AgeRange){
+            if (i.getAge() >= AgeRange) {
 
-                personArray[i].InfoSysOut();
+                i.InfoSysOut();
 
             }
 
